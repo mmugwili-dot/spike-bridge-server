@@ -1,0 +1,17 @@
+{
+  "name": "spike-alert-bridge",
+  "version": "1.0.0",
+  "description": "MT5 to iPhone bridge server for Spike Predictor",
+  "main": "bridge-server.js",
+  "scripts": {
+    "start": "node bridge-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
